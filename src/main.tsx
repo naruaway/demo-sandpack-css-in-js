@@ -30,7 +30,7 @@ function App() {
 function Main() {
   return (
     <>
-      <Box as="h1" p={8}>Editable demo for Kuma UI compilation using Sandpack</Box>
+      <Box as="h1" p={8}>Editable demo for Kuma UI compilation using Sandpack (<a href="https://github.com/naruaway/demo-sandpack-css-in-js">repo</a>)</Box>
       <SandpackLayout>
         <SandpackCodeEditor showTabs={false} />
         <SandpackPreview
