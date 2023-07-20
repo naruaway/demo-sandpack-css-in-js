@@ -3,7 +3,8 @@
   "name": "demo-sandpack-css-in-js",
   "version": "0.1.0",
   "scripts": {
-    "dev": "./node_modules/.bin/vite"
+    "dev": "./node_modules/.bin/vite",
+    "build": "./node_modules/.bin/vite build"
   },
   "dependencies": {
     "@codesandbox/sandpack-react": "2.6.9",
