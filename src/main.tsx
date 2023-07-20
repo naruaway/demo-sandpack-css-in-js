@@ -34,6 +34,9 @@ function Main() {
         Editable demo for Kuma UI compilation using Sandpack (
         <a href="https://github.com/naruaway/demo-sandpack-css-in-js">repo</a>)
       </Box>
+      <Box p={8}>
+        This is just my demo. I might change or break this at any point so please do not link here from any official docs or whatever
+      </Box>
       <SandpackLayout>
         <SandpackCodeEditor showTabs={false} />
         <SandpackPreview
