@@ -2,7 +2,9 @@
   "private": true,
   "name": "demo-sandpack-css-in-js",
   "version": "0.1.0",
-  "scripts": {},
+  "scripts": {
+    "dev": "./node_modules/.bin/vite"
+  },
   "dependencies": {
     "@codesandbox/sandpack-react": "2.6.9",
     "@kuma-ui/core": "1.1.0",

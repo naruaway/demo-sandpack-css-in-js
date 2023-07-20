@@ -22,14 +22,15 @@ function App() {
         environment: "node",
       }}
     >
-      <MyApp />
+      <Main />
     </SandpackProvider>
   );
 }
 
-function MyApp() {
+function Main() {
   return (
     <>
+      <Box as="h1" p={8}>Editable demo for Kuma UI compilation using Sandpack</Box>
       <SandpackLayout>
         <SandpackCodeEditor showTabs={false} />
         <SandpackPreview
@@ -82,6 +83,7 @@ function CompiledCodePreview() {
   const code = files["/compiled.tsx"]?.code;
   return (
     <Box border="1px solid #efefef" borderRadius="3px">
+      <Box p={8} color="#555" bg="#eee" fontWeight="bold">Compiled code</Box>
       <CodeEditor
         code={code ?? "// compiled code will be shown here.\nNow loading..."}
         initMode="lazy"
