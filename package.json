@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "demo-sandpack-css-in-js",
+  "version": "0.1.0",
+  "scripts": {},
+  "dependencies": {
+    "@codesandbox/sandpack-react": "2.6.9",
+    "@kuma-ui/core": "1.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "vite": "4.4.4",
+    "prettier": "3.0.0",
+    "@kuma-ui/vite": "1.0.3",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "4.0.3"
+  }
+}
