@@ -1,19 +1,4 @@
 export const initialFiles = {
-  "/index.tsx": {
-    code: `import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-
-import App from "./App";
-import React from "react";
-
-const root = createRoot(document.getElementById("root"));
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
-`,
-  },
   "/App.tsx": {
     code: `import {useState} from 'react';
 import { Box, Button } from '@kuma-ui/core';
@@ -34,6 +19,21 @@ export default function App() {
     <Button type="button" onClick={() => setFlag(x => !x)}>Click me</Button>
   </Box>
 }
+`,
+  },
+  "/index.tsx": {
+    code: `import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
+import App from "./App";
+import React from "react";
+
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
 `,
   },
   "/index.html": {
